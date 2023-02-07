@@ -4,9 +4,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
+        <img src="data:image/jpeg;base64,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" className="App-logo" alt="logo" />
         <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
+          I <span className="heart">♥️</span> Chairs 
         </p>
         <p className="small">
           Edit <code>src/App.js</code> and save to reload.
@@ -14,11 +14,11 @@ function App() {
         <p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://youtu.be/dQw4w9WgXcQ"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Lol
           </a>
         </p>
       </header>
